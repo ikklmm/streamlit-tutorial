@@ -54,7 +54,7 @@ if not df.empty:
         range_color=(1900, 2022),
     )
 
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')
 
 else:
     st.error("Sorry, no power plants to display!")
