@@ -10,7 +10,7 @@ st.set_page_config(page_title="Power Plants", layout="wide")
 
 # st.balloons()
 
-st.title("Power Plants in Europe")
+st.title("我是潜泳爸爸")
 
 
 @st.cache_data
